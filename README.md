@@ -1,4 +1,5 @@
 # TIL
+[![Blog](https://img.shields.io/badge/Blog-crupy.tistory.com-green.svg)](https://crupy.tistory.com/category)
 
 ## Database
 - MySQL
