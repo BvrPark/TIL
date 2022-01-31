@@ -96,4 +96,10 @@
 </br></br>
 - `remove(key)`
     - Map안의 내용삭제
+</br></br>
+- `keySet()`
+    - Map안의 key값을 다 반환
+</br></br>
+- `entrySet()`
+    - Map안의 key-value값을 다 반환
 
