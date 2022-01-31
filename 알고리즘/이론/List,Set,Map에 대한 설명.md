@@ -78,5 +78,22 @@
     - 이진 탐색 트리를 기반으로 Key와 Value를 저장한다.
     - Key값을 기준으로 오름차순으로 정렬되고 빠른 검색이 가능하다.
     - 저장을 하면서 동시에 정렬을 하기 때문에 시간이 오래 걸린다.
-    
+</br></br>
+
+**3. 자주 사용하는 메서드**
+- `getOrDefault(key,default-value)`
+    - key값이 존재하면 그 키 값의 value를 반환
+    - key값이 존재하지 않으면 default-value를 반환
+</br></br>
+- `put(key,value)`
+    - Map안에 key-value형태로 값 넣기
+</br></br>
+- `get(key)`
+    - Map안에 key값에 대응되는 value값 반환
+</br></br>
+- `containsKey(key)/containsValue(value)`
+    - Map안에 특정 key/value값이 있는지 확인
+</br></br>
+- `remove(key)`
+    - Map안의 내용삭제
 
