@@ -6,7 +6,9 @@
     - [SELECT 기초](https://github.com/crupy/TIL/tree/master/MySQL_%EA%B8%B0%EC%B4%88%EB%AC%B8%EB%B2%95/SELECT%20%EA%B8%B0%EC%B4%88)
 
 ## 알고리즘
-- [이론](https://github.com/crupy/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%9D%B4%EB%A1%A0.md)
+- 이론
+    - [기초](https://github.com/crupy/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%9D%B4%EB%A1%A0/%EA%B8%B0%EC%B4%88.md)
+    - [List,Set,Map에 대한 설명](https://github.com/crupy/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%9D%B4%EB%A1%A0/List,Set,Map%EC%97%90%20%EB%8C%80%ED%95%9C%20%EC%84%A4%EB%AA%85.md)
 - [백준](https://github.com/crupy/new_baekjoon_algorithm/tree/master/src)
 - 프로그래머스
     - [LEVEL1](https://github.com/crupy/new_baekjoon_algorithm/tree/master/src/Programmers/Level1)
