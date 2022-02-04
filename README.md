@@ -4,6 +4,7 @@
 ## Database
 - MySQL
     - [SELECT 기초](https://github.com/crupy/TIL/tree/master/MySQL_%EA%B8%B0%EC%B4%88%EB%AC%B8%EB%B2%95/SELECT%20%EA%B8%B0%EC%B4%88)
+    - [SELECT 활용](https://github.com/crupy/TIL/tree/master/MySQL_%EA%B8%B0%EC%B4%88%EB%AC%B8%EB%B2%95/SELECT%20%ED%99%9C%EC%9A%A9)
 
 ## 알고리즘
 - 이론
