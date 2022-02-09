@@ -5,6 +5,7 @@
 - MySQL
     - [SELECT 기초](https://github.com/crupy/TIL/tree/master/MySQL_%EA%B8%B0%EC%B4%88%EB%AC%B8%EB%B2%95/SELECT%20%EA%B8%B0%EC%B4%88)
     - [SELECT 활용](https://github.com/crupy/TIL/tree/master/MySQL_%EA%B8%B0%EC%B4%88%EB%AC%B8%EB%B2%95/SELECT%20%ED%99%9C%EC%9A%A9)
+        - [서브 쿼리](https://github.com/crupy/TIL/blob/master/MySQL_%EA%B8%B0%EC%B4%88%EB%AC%B8%EB%B2%95/SELECT%20%ED%99%9C%EC%9A%A9/%EC%BF%BC%EB%A6%AC%20%EC%95%88%EC%97%90%20%EC%84%9C%EB%B8%8C%EC%BF%BC%EB%A6%AC.md)
         - [JOIN](https://github.com/crupy/TIL/blob/master/MySQL_%EA%B8%B0%EC%B4%88%EB%AC%B8%EB%B2%95/SELECT%20%ED%99%9C%EC%9A%A9/JOIN.md)
 
 ## 알고리즘
