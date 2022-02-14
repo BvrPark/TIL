@@ -31,6 +31,7 @@
     - [정규식](https://github.com/crupy/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%8B%A4%EC%A0%84%20%EA%B0%9C%EB%85%90/%EC%A0%95%EA%B7%9C%EC%8B%9D.md)
 
 ## OOP
+- [객체 지향 언어의 4가지 특징](https://github.com/crupy/TIL/blob/master/OOP/%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%EC%96%B8%EC%96%B4%EC%9D%98%204%EA%B0%80%EC%A7%80%20%ED%8A%B9%EC%A7%95.md)
 - [좋은 객체 지향 설계의 5가지 원칙(SOLID)](https://github.com/crupy/TIL/blob/master/OOP/%EC%A2%8B%EC%9D%80%20%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%EC%84%A4%EA%B3%84%EC%9D%98%205%EA%B0%80%EC%A7%80%20%EC%9B%90%EC%B9%99(SOLID).md)
 
 ## Java
