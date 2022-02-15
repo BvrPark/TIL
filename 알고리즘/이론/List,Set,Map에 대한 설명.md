@@ -53,6 +53,14 @@
     - 이진 탐색 트리를 기반으로 한다.
     - 데이터들이 오름차순으로 정렬.
     - 데이터의 삽입과 삭제에는 시간이 오래 걸리지만, 정렬이 빠르다.
+
+    ```Java
+    TreeSet<Integer> Tset = new TreeSet<>();
+    // 일반적인 형태로 오름차순으로 정렬된다.
+
+    TreeSet<Integer> Tset = new TreeSet<>(Collections.reverseOrder());
+    // 내림차순으로 정렬하기 위해 따로 reverseOrder()를 붙여줌
+    ```
 </br></br>
 
 ### **Map**
