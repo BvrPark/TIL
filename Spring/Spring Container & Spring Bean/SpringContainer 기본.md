@@ -78,6 +78,8 @@ public static void main(String[] args) {
 // 이 코드는 스프링 컨테이너를 활용해서 객체를 찾는 것
 // ApplicationContext를 스프링 컨테이너라고 한다.
 ```
+- `ApplicationContext`를 스프링 컨테이너라고 한다.
+
 - 스프링 빈은 `applicationContext.getBean("메서드 이름", 반환타입)`메서드를 사용해서 찾을 수 있다.
 
 - 기존에는 개발자가 직접 자바코드로 모든 것을 했다면 지금부터는 스프링 컨테이너에 객체를 스프링 빈으로 등록하고, 스프링 컨테이너에서 스프링 빈을 찾아서 사용하도록 변경되었다.
