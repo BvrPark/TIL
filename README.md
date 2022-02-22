@@ -27,6 +27,7 @@
 - **실전개념**
     - [자주 사용하는 메서드](https://github.com/crupy/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%8B%A4%EC%A0%84%20%EA%B0%9C%EB%85%90/%EC%9E%90%EC%A3%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EB%A9%94%EC%84%9C%EB%93%9C.md)
     - [소수를 구하는 알고리즘](https://github.com/crupy/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%8B%A4%EC%A0%84%20%EA%B0%9C%EB%85%90/%EC%86%8C%EC%88%98%EC%9D%98%20%EA%B0%AF%EC%88%98%EB%A5%BC%20%EA%B5%AC%ED%95%98%EB%8A%94%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)
+    - [유클리드 호제법](https://github.com/crupy/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%8B%A4%EC%A0%84%20%EA%B0%9C%EB%85%90/%EC%9C%A0%ED%81%B4%EB%A6%AC%EB%93%9C%20%ED%98%B8%EC%A0%9C%EB%B2%95.md)
     - [얕은 복사 vs 깊은 복사](https://github.com/crupy/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%8B%A4%EC%A0%84%20%EA%B0%9C%EB%85%90/%EC%96%95%EC%9D%80%20%EB%B3%B5%EC%82%AC%20vs%20%EA%B9%8A%EC%9D%80%20%EB%B3%B5%EC%82%AC.md)
     - [정규식](https://github.com/crupy/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%8B%A4%EC%A0%84%20%EA%B0%9C%EB%85%90/%EC%A0%95%EA%B7%9C%EC%8B%9D.md)
 - **풀이코드**(어려운 문제에 대한 자세한 풀이는 [블로그](https://crupy.tistory.com/category)참조)
