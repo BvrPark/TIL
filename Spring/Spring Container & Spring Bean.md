@@ -91,7 +91,7 @@ ApplicationContext applicationContext = new AnnotationConfigApplicationContext(A
 
 - 스프링 컨테이너는 XML을 기반으로 만들 수 있고,</br>
 애노테이션 기반의 자바 설정 클래스로 만들 수 있다.
-- 이전의 [SpringContainer 기본](https://github.com/crupy/TIL/blob/master/Spring/Spring%20Container%20%26%20Spring%20Bean/SpringContainer%20%EA%B8%B0%EB%B3%B8.md)에서 AppConfig를 사용했던 방식이 애노테이션 기반의 자바 설정 클래스로 스프링 컨테이너를 만든 것이다.
+- 위의 제일 첫 번째 코드에서 AppConfig를 사용했던 방식이 애노테이션 기반의 자바 설정 클래스로 스프링 컨테이너를 만든 것이다.
 - `new AnnotationConfigApplicationContext(AppConfig.class);`는</br>
 `ApplicationContext` 인터페이스의 구현체이다.
 </br></br>
