@@ -20,7 +20,7 @@
 
 ## Algorithm
 - **이론**
-    - [기초](https://github.com/crupy/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%9D%B4%EB%A1%A0/%EA%B8%B0%EC%B4%88.md)
+    - [자료구조](https://github.com/crupy/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%9D%B4%EB%A1%A0/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0.md)
     - [List,Set,Map에 대한 설명](https://github.com/crupy/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%9D%B4%EB%A1%A0/List,Set,Map%EC%97%90%20%EB%8C%80%ED%95%9C%20%EC%84%A4%EB%AA%85.md)
     - [정렬 알고리즘](https://github.com/crupy/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%9D%B4%EB%A1%A0/%EC%A0%95%EB%A0%AC.md)
     - [탐색 알고리즘](https://github.com/crupy/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%9D%B4%EB%A1%A0/%ED%83%90%EC%83%89.md)
