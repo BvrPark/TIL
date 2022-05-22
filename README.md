@@ -2,6 +2,7 @@
 [![Blog](https://img.shields.io/badge/Blog-crupy.tistory.com-green.svg)](https://crupy.tistory.com/category)
 
 ### 바로가기
+- [기초지식](#기초지식)
 - [Network](#network)
 - [Database](#database)
 - [Algorithm](#algorithm)
@@ -9,6 +10,9 @@
 - [Java](#java)
 - [Spring](#spring)
 </br></br>
+
+## 기초지식
+- [MVC패턴](https://github.com/crupy/TIL/blob/master/%EA%B8%B0%EC%B4%88%EC%A7%80%EC%8B%9D/MVC%ED%8C%A8%ED%84%B4.md)
 
 ## Network
 - [네트워크](https://github.com/crupy/TIL/blob/master/Network/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC.md)
