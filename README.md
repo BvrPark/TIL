@@ -9,6 +9,7 @@
 - [OOP](#oop)
 - [Java](#java)
 - [Spring](#spring)
+- [풀이코드](#풀이코드)
 </br></br>
 
 ## 기초지식
@@ -44,11 +45,6 @@
     - [유클리드 호제법](https://github.com/crupy/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%8B%A4%EC%A0%84%20%EA%B0%9C%EB%85%90/%EC%9C%A0%ED%81%B4%EB%A6%AC%EB%93%9C%20%ED%98%B8%EC%A0%9C%EB%B2%95.md)
     - [얕은 복사 vs 깊은 복사](https://github.com/crupy/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%8B%A4%EC%A0%84%20%EA%B0%9C%EB%85%90/%EC%96%95%EC%9D%80%20%EB%B3%B5%EC%82%AC%20vs%20%EA%B9%8A%EC%9D%80%20%EB%B3%B5%EC%82%AC.md)
     - [정규식](https://github.com/crupy/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%8B%A4%EC%A0%84%20%EA%B0%9C%EB%85%90/%EC%A0%95%EA%B7%9C%EC%8B%9D.md)
-- **풀이코드**(어려운 문제에 대한 자세한 풀이는 [블로그](https://crupy.tistory.com/category)참조)
-    - [백준](https://github.com/crupy/new_baekjoon_algorithm/tree/master/src)
-    - [프로그래머스](https://github.com/crupy/new_baekjoon_algorithm/tree/master/src/Programmers)
-        - [Level1](https://github.com/crupy/new_baekjoon_algorithm/tree/master/src/Programmers/Level1)
-        - [Level2](https://github.com/crupy/new_baekjoon_algorithm/tree/master/src/Programmers/Level2)
 
 ## OOP
 - [객체 지향 언어의 4가지 특징](https://github.com/crupy/TIL/blob/master/OOP/%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%EC%96%B8%EC%96%B4%EC%9D%98%204%EA%B0%80%EC%A7%80%20%ED%8A%B9%EC%A7%95.md)
@@ -63,3 +59,34 @@
 - [Spring Container & Spring Bean](https://github.com/crupy/TIL/blob/master/Spring/Spring%20Container%20&%20Spring%20Bean.md)
 - [싱글톤과 싱글톤 컨테이너](https://github.com/crupy/TIL/blob/master/Spring/%EC%8B%B1%EA%B8%80%ED%86%A4%20%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88.md)
 - [컴포넌트 스캔](https://github.com/crupy/TIL/blob/master/Spring/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EC%8A%A4%EC%BA%94.md)
+
+## 풀이코드
+😀어려운 문제에 대한 자세한 풀이는 [블로그](https://crupy.tistory.com/category)참조😀</br>
+
+- **백준**
+    <details>
+    <summary>단계별 풀이코드</summary>
+    <div markdown="1">
+
+    - [1단계](https://github.com/crupy/new_baekjoon_algorithm/tree/master/src/step1)</br>
+    - [2단계](https://github.com/crupy/new_baekjoon_algorithm/tree/master/src/step2)</br>
+    - [3단계](https://github.com/crupy/new_baekjoon_algorithm/tree/master/src/step3)</br>
+    - [4단계](https://github.com/crupy/new_baekjoon_algorithm/tree/master/src/step4)</br>
+    - [5단계](https://github.com/crupy/new_baekjoon_algorithm/tree/master/src/step5)</br>
+    - [6단계](https://github.com/crupy/new_baekjoon_algorithm/tree/master/src/step6)</br>
+    - [7단계](https://github.com/crupy/new_baekjoon_algorithm/tree/master/src/step7)</br>
+    - [8단계](https://github.com/crupy/new_baekjoon_algorithm/tree/master/src/step8)</br>
+
+    </div>
+    </details>
+
+
+- **프로그래머스**
+    <details>
+    <summary>레벨별 풀이코드</summary>
+    <div markdown="1">
+        
+    - [Level1](https://github.com/crupy/new_baekjoon_algorithm/tree/master/src/Programmers/Level1)
+    - [Level2](https://github.com/crupy/new_baekjoon_algorithm/tree/master/src/Programmers/Level2)
+    </div>
+    </details>
