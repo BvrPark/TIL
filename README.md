@@ -14,22 +14,29 @@
 
 ## 기초지식
 - [API란?](https://github.com/crupy/TIL/blob/master/%EA%B8%B0%EC%B4%88%EC%A7%80%EC%8B%9D/API%EB%9E%80%3F.md)
-- [RESTful API](https://github.com/crupy/TIL/blob/master/%EA%B8%B0%EC%B4%88%EC%A7%80%EC%8B%9D/RESTful%20API.md)
 - [MVC패턴](https://github.com/crupy/TIL/blob/master/%EA%B8%B0%EC%B4%88%EC%A7%80%EC%8B%9D/MVC%ED%8C%A8%ED%84%B4.md)
 
 ## Network
 - [네트워크](https://github.com/crupy/TIL/blob/master/Network/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC.md)
 - [OSI 7계층](https://github.com/crupy/TIL/blob/master/Network/OSI%207%EA%B3%84%EC%B8%B5.md)
 - [TCP vs UDP](https://github.com/crupy/TIL/blob/master/Network/TCP%20vs%20UDP.md)
+- [RESTful API](https://github.com/crupy/TIL/blob/master/Network/RESTful%20API.md)
 
 ## Database
 - **MySQL**
     - [SELECT 기초](https://github.com/crupy/TIL/tree/master/MySQL_%EA%B8%B0%EC%B4%88%EB%AC%B8%EB%B2%95/SELECT%20%EA%B8%B0%EC%B4%88)
-    - [SELECT 활용](https://github.com/crupy/TIL/tree/master/MySQL_%EA%B8%B0%EC%B4%88%EB%AC%B8%EB%B2%95/SELECT%20%ED%99%9C%EC%9A%A9)
+    - <details>
+       <summary>SELECT 활용</summary>
+       <div markdown="1">
+       
         - [서브 쿼리](https://github.com/crupy/TIL/blob/master/MySQL_%EA%B8%B0%EC%B4%88%EB%AC%B8%EB%B2%95/SELECT%20%ED%99%9C%EC%9A%A9/%EC%BF%BC%EB%A6%AC%20%EC%95%88%EC%97%90%20%EC%84%9C%EB%B8%8C%EC%BF%BC%EB%A6%AC.md)
         - [JOIN](https://github.com/crupy/TIL/blob/master/MySQL_%EA%B8%B0%EC%B4%88%EB%AC%B8%EB%B2%95/SELECT%20%ED%99%9C%EC%9A%A9/JOIN.md)
         - [UNION](https://github.com/crupy/TIL/blob/master/MySQL_%EA%B8%B0%EC%B4%88%EB%AC%B8%EB%B2%95/SELECT%20%ED%99%9C%EC%9A%A9/UNION.md)
 
+       </div>
+       </details>
+    
+    
 
 ## Algorithm
 - **이론**
