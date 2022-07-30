@@ -1,27 +1,53 @@
+> 이 글은 김영한님의 [모든 개발자를 위한 HTTP 웹 기본 지식](https://www.inflearn.com/course/http-%EC%9B%B9-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/dashboard) 강의의 내용을 바탕으로 정리했습니다.
+
 # TCP vs UDP
 TCP와 UDP는 OSI 7계층 중에서 `Layer4 : 전송계층`에서 사용되는 프로토콜에 해당됨.</br>
-### 전송계층 
-- 프로토콜내에서 송신자와 수신자를 연결하는 통신 서비스를 제공하는 계층.
-- IP에 의해 전달되는 패킷의 오류를 검사하고 재전송 요구 등의 제어를 담당
-- 전송계층에서 사용되는 프로토콜이 `TCP`와 `UDP`
+### 인터넷 프로토콜 스택의 4계층
+- **애플리케이션 계층** - HTTP, FTP
+- **전송 계층** - TCP, UDP
+- **인터넷 계층** - IP
+- **네트워크 인터페이스 계층**
+
+<img src="https://user-images.githubusercontent.com/84119178/181900806-a14abd13-8dd4-4b5a-8224-eeb77dca5c85.png" width="800" height="480"/>
 </br></br>
 
-## TCP(Transmission Control Protocol)
-신뢰성있는 데이터 전송을 지원하는 연결 지향형 프로토콜.</br>
-일반적으로 **TCP**와 **IP**가 함께 사용되며, **IP**는 데이터 전송을 처리.</br> **TCP**는 패킷 추적 및 관리를 담당한다.</br>
-연결 지향형인 **TCP**는 3-way handShaking이라는 과정을 통해 연결 후 통신을 시작.</br>
-`흐름제어`와 `혼잡제어`를 지원하며 데이터의 순서를 보장.
+## TCP : 전송 제어 프로토콜(Transmission Control Protocol)
+
+### 1. 일반적으로 **TCP**와 **IP**가 함께 사용. 
+- **IP**는 데이터 전송을 처리, **TCP**는 패킷 추적 및 관리를 담당한다.
+<img src="https://user-images.githubusercontent.com/84119178/181902920-b06a0382-5c81-4618-8844-4a70cee2637d.png" width="500" height="300"/>
+</br></br>
+
+### 2. 연결지향 : TCP 3-way handShaking(가상연결)
+- 연결을 했는지 확인 후, 통신을 시작
+<img src="https://user-images.githubusercontent.com/84119178/181903357-3bf1ac7f-a882-4aeb-bfb5-a316310188cb.png" width="500" height="300"/>
+
+- 1->2->3->4의 순서대로 통신을 한다.
+    
+1) 클라이언트에서 서버로 접속요청(SYN)을 보냄
+2) 서버에서 요청을 수락(ACK)함과 동시에 서버도 클라이언트에게 접속을 요청함(SYN)
+3) 클라이언트에서 요청을 수락(ACK)
+4) 이 과정이 끝난 후, 데이터를 전송
+    
+- 3,4번 과정은 동시에 일어날 수도 있음.
+</br></br>
+
+### 3. 흐름제어와 혼잡제어를 지원하며 데이터의 순서를 보장.
 - `흐름제어` : 보내는 측과 받는 측의 데이터 처리속도 차이를 조절해주는 것
 - `혼잡제어` : 네트워크 내의 패킷 수가 넘치게 증가하지 않도록 방지하는 것
+<img src="https://user-images.githubusercontent.com/84119178/181908569-983112e5-699e-4c7c-a45f-ee5c364daa16.png" width="500" height="300"/>
 </br></br>
 
-### TCP 특징
+### 4. 데이터 전달 보증
+- 일반적인 인터넷 프로토콜과는 달리 데이터 누락과 같은 문제가 발생했을시, 오류가 발생했다고 보여준다.
+
+</br></br>
+### TCP 특징정리
 - 연결형 서비스로 가상 회선 방식을 제공
 - 데이터의 전송 순서 보장
-- 데이터의 경계를 구분하지 않음
-- 신뢰성 있는 데이터 전송
-- UDP보다 전송속도가 느림
-- 연결을 설정(3-way handshaking)과 해제(4-way handshaking)
+- 데이터 전달 보증
+- 신뢰할 수 있는 프로토콜
+- 현재는 대부분 TCP 사용
 
 </br></br></br>
 
@@ -53,4 +79,5 @@ TCP와는 다르게 연결 설정이 없으며, 혼잡 제어를 하지 않기 �
 </br></br></br></br>
 
 ### 참고
-[https://cocoon1787.tistory.com/757](https://cocoon1787.tistory.com/757)
+[https://cocoon1787.tistory.com/757](https://cocoon1787.tistory.com/757)</br>
+[모든 개발자를 위한 HTTP 웹 기본 지식](https://www.inflearn.com/course/http-%EC%9B%B9-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/dashboard)
