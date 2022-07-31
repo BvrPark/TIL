@@ -35,7 +35,7 @@ TCP와 UDP는 OSI 7계층 중에서 `Layer4 : 전송계층`에서 사용되는 �
 ### 3. 흐름제어와 혼잡제어를 지원하며 데이터의 순서를 보장.
 - `흐름제어` : 보내는 측과 받는 측의 데이터 처리속도 차이를 조절해주는 것
 - `혼잡제어` : 네트워크 내의 패킷 수가 넘치게 증가하지 않도록 방지하는 것
-<img src="https://user-images.githubusercontent.com/84119178/181908569-983112e5-699e-4c7c-a45f-ee5c364daa16.png" width="500" height="300"/>
+<img src="https://user-images.githubusercontent.com/84119178/181908569-983112e5-699e-4c7c-a45f-ee5c364daa16.png" width="700" height="300"/>
 </br></br>
 
 ### 4. 데이터 전달 보증
