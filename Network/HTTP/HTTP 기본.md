@@ -101,7 +101,7 @@ HTTP 메시지에 거의 모든 형태의 데이터를 전송할 수 있다.</br
 ## 시작라인(start - line)
 
 ### 요청 메시지
-**`GET /search?q=hello&hl=ko HTTP/1.1`** </br>
+<img src = "https://user-images.githubusercontent.com/84119178/184471613-51cbe00b-0215-4344-b4eb-96861b669640.png" width = "300">
 
 1. HTTP 메서드(중요)</br>
 **GET** `/search?q=hello&hl=ko HTTP/1.1` </br>
@@ -121,7 +121,7 @@ HTTP 메시지에 거의 모든 형태의 데이터를 전송할 수 있다.</br
 </br></br>
 
 ### 응답메시지
-**`HTTP/1.1 200 OK`**
+<img src = "https://user-images.githubusercontent.com/84119178/184471742-ec2f5296-70b3-4cd0-9a28-674ac94d325a.png" width = "300">
 
 1. HTTP 버전</br>
 **HTTP/1.1** `200 OK`
@@ -136,4 +136,23 @@ HTTP 메시지에 거의 모든 형태의 데이터를 전송할 수 있다.</br
 3. 이유 문구</br>
 `HTTP/1.1 200` **OK**</br>
 사람이 이해할 수 있는 짧은 상태 코드 설명 글
+</br></br>
+
+#### **HTTP 헤더**
+<img src = "https://user-images.githubusercontent.com/84119178/184471801-624146cc-7682-48b8-a7ef-ea97bf836adb.png" width = "600"> 
+
+**field-name ":" OWS field-value OWS** </br>
+(OWS : 띄어쓰기 허용)구조로 이루어지고 field-name은 대소문자 구분X
+- HTTP 전송에 필요한 모든 부가정보가 들어가 있다.</br>
+(메시지 바디를 제외하고 필요한 모든 메타데이터 정보가 들어가 있다.)
+- 표준 헤더가 너무 많다.
+- 필요시 임의의 헤더를 추가할 수 있다.
+</br></br>
+
+#### **HTTP 메시지 바디**
+<img src = "https://user-images.githubusercontent.com/84119178/184472167-2100923b-7177-4405-8f9c-23a78388e2cb.png" width = "350">
+
+- 실제로 전송할 데이터들
+- HTML, 이미지, 영상 등등 모든 데이터 전송 가능
+
 
