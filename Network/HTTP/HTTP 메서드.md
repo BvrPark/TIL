@@ -133,6 +133,11 @@
 - 실제로는 GET, HEAD 정도만 캐시로 사용
     - POST, PATCH는 본문 내용까지 캐시 키로 고려해야 하는데, 구현이 쉽지 않다.
 
+</br></br>
 
-## 데이터 전송 예시
+## 데이터 전송 예시 및 URI 설계 개념
 <img src = "https://user-images.githubusercontent.com/84119178/184593909-4cb0b7bb-b319-40a7-a044-8b0cda773405.png" width = "600">
+
+</br></br>
+
+<img src = "https://user-images.githubusercontent.com/84119178/184625609-35b58887-4efc-41a3-a205-814e89652d77.png" width = "500">
