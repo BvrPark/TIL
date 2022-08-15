@@ -132,3 +132,7 @@
 - GET, HEAD, POST, PATCH를 캐시로 사용가능
 - 실제로는 GET, HEAD 정도만 캐시로 사용
     - POST, PATCH는 본문 내용까지 캐시 키로 고려해야 하는데, 구현이 쉽지 않다.
+
+
+## 데이터 전송 예시
+<img src = "https://user-images.githubusercontent.com/84119178/184593909-4cb0b7bb-b319-40a7-a044-8b0cda773405.png" width = "600">
