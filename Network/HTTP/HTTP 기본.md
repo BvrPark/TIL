@@ -10,7 +10,10 @@
 </br></br>
 
 ## HTTP 특징
-HTTP는 **H**yper **T**ext **T**ransfer **P**rotocol의 약자로써, 다음과 같은 특징을 가지고 있다.
+HTTP는 **H**yper **T**ext **T**ransfer **P**rotocol의 약자로써,</br>
+**인터넷에서 데이터를 주고받을 수 있는 프로토콜(통신규약)** 이라는 뜻을 가지며</br>
+
+다음과 같은 특징을 가지고 있다.
 - HTML, TEXT, 이미지, 영상, 파일 등 거의 모든 형태의 데이터를 전송할 수 있다.
 - 서버간 데이터를 주고 받을 때에도 대부분 HTTP를 사용
 - TCP는 `HTTP/1.1`, `HTTP/2`</br>
