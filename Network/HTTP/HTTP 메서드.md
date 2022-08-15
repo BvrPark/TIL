@@ -6,6 +6,7 @@
 - [PUT](#put)
 - [PATCH](#patch)
 - [DELETE](#delete)
+- [메서드의 속성](#http-메서드의-속성)
 
 </br></br>
 <img src = "https://user-images.githubusercontent.com/84119178/184474003-c65ea962-8997-4b12-949e-0fa5f91dbc99.png" width = "300">
@@ -97,3 +98,37 @@
 <img src = "https://user-images.githubusercontent.com/84119178/184475986-534e3fb0-ef4d-42b2-b814-5a599569841e.png" width = "500">
 <img src = "https://user-images.githubusercontent.com/84119178/184476005-ed74393f-5e7a-483e-a406-edb2cdcf0ca3.png" width = "500">
 
+</br></br></br></br>
+
+## HTTP 메서드의 속성
+
+### 1. 안전(Safe Methods)
+호출해도 리소스를 변경하지 않는다.(GET, HEAD 등등)</br>
+데이터가 쌓여서 장애가 발생하는 그런 부분까지는 고려하지 않는다.
+
+### 2. 멱등(Idempotent Methods)
+1번이든 100번이든 호출한 결과가 항상 똑같다.</br>
+-> 서버가 정상 응답을 못 주었을 때, 클라이언트가 같은 요청을 다시 해도 되는가?에 대한 판단의 근거가 된다.
+
+- 멱등 메서드
+    - GET : 1번 조회하든, 2번 조회하든 같은 결과가 조회.
+
+    - PUT : 결과를 대체한다.</br> 
+    -> 같은 요청을 여러 번 해도 최종 결과는 같다.
+
+    - DELETE : 결과를 삭제한다.</br> 
+    -> 같은 요청을 여러 번 해도 삭제된 결과는 똑같다.
+
+    - **POST : 멱등이 아니다!!!**</br>
+    2번 호출하면 같은 결제가 중복해서 발생할 수도 있다.
+   
+
+- **멱등은 외부 요인으로 중간에 리소스가 변경되는 것 까지는 고려하지 않는다.**
+
+
+### 3. 캐시가능(Cacheable Methods)
+**`캐시`** : 웹 브라우저가 자신의 로컬 PC에 어떤 데이터를(이미지, 영상 등) 저장하고 있는 것
+
+- GET, HEAD, POST, PATCH를 캐시로 사용가능
+- 실제로는 GET, HEAD 정도만 캐시로 사용
+    - POST, PATCH는 본문 내용까지 캐시 키로 고려해야 하는데, 구현이 쉽지 않다.
