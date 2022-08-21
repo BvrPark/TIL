@@ -6,9 +6,7 @@
 - [2xx(Successful)](#2xxsuccessful--클라이언트의-요청이-정상적으로-처리됨)
 - [3xx(Redirection)](#3xxredirection--요청을-완료하기-위해-추가-조치가-필요)
 - [4xx(Client Error)](#4xxclient-error--클라이언트-오류)
-
-</br></br>
-
+***
 
 클라이언트가 보낸 요청의 처리 상태를 응답에서 알려주는 기능
 - 1xx(Informational) : 요청이 수신되어 처리중 -> 거의 사용되지 않는다.
@@ -18,7 +16,6 @@
 - 5xx(Server Error) : 서버 오류
 
 위의 정보를 바탕으로 모르는 상태코드(ex : 452, 562 등등)가 나와도 어느 정도 해석이 가능하다.
-
 </br></br>
 
 ## 2xx(Successful) : 클라이언트의 요청이 정상적으로 처리됨
