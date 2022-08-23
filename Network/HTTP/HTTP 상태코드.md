@@ -47,7 +47,7 @@
 <img src="https://user-images.githubusercontent.com/84119178/185355921-019479e2-253e-4d71-bc18-1ef357a5dd8a.png" width = "600">
 영구 리다이렉션, 일시 리다이렉션, 특수 리다이렉션 등이 존재한다.
 
-</br></br>
+***
 
 ### 영구 리다이렉션(301, 308)
 - 리소스의 URI가 영구적으로 이동
@@ -63,7 +63,7 @@
     (처음 POST를 보내면 리다이렉트도 POST를 유지)
     - 실무에선, 리소스의 URI가 바뀌면 내부적으로 전달되는 데이터가 다 바뀌어버려서 잘 사용하지 않는다.
 
-</br></br>
+***
 
 ### 일시 리다이렉션(302, 307, 303)
 - 리소스의 URI가 일시적으로 변경
@@ -86,7 +86,7 @@
     <img src = "https://user-images.githubusercontent.com/84119178/185582120-f62aae7c-bff2-4e30-89e6-613b8f98aa25.png" width = "600">
     <img src = "https://user-images.githubusercontent.com/84119178/185582701-d15d0f21-0598-4ede-89e4-8401ef3817b4.png" width = "600">
 
-</br></br>
+***
 
 ### 기타 리다이렉션(300, 304)
 - **300(Multiple Choices)** : 거의 쓰지 않는다.
