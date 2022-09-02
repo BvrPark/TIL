@@ -1,6 +1,15 @@
 > 이 글은 김영한님의 [모든 개발자를 위한 HTTP 웹 기본 지식](https://www.inflearn.com/course/http-%EC%9B%B9-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/dashboard) 강의의 내용을 바탕으로 정리했습니다.
 
 # HTTP 헤더 기본
+### 목차
+- [헤더 필드의 구조,HTTP BODY](#헤더-필드의-구조host-wwwgooglecombr)
+- [표현](#표현)
+- [협상](#협상)
+- [전송](#전송)
+- [일반 정보, 특별한 정보](#일반-정보)
+- [쿠키](#쿠키)
+---
+
 HTTP 헤더는 다음과 같은 구조를 가지고 있다.
 
 ### **헤더 필드의 구조(Host: www.google.com)**</br>
@@ -15,7 +24,12 @@ HTTP 헤더는 다음과 같은 구조를 가지고 있다.
     - 원래는 엔티티(Entity)라고 쓰였지만 최신버전에서는 표현(Representation)이라고 쓰임
 - 메시지 본문 = 페이로드(payload) = 실제 데이터 부분
 - 표현(표현 헤더 + 표현 데이터) : 요청이나 응답에서 전달할 실제 데이터
+</br></br>
 
+<div style="text-align: right"> 
+
+[맨위로](#목차) 
+</div>
 </br></br>
 
 ## 표현
@@ -52,8 +66,12 @@ HTTP 헤더는 다음과 같은 구조를 가지고 있다.
 4. ### **Content-Length : 표현 데이터의 길이**
     - 바이트 단위
     - Transfer-Encoding을 사용할때는 쓰면 안됨!!!
+</br>
+<div style="text-align: right"> 
 
-</br></br></br>
+[맨위로](#목차) 
+</div>
+</br></br>
 
 ## 협상
 클라이언트가 선호하는 표현 요청
@@ -103,8 +121,12 @@ HTTP 헤더는 다음과 같은 구조를 가지고 있다.
         |4순위|image/jpeg|q=0.5|
         |5순위|text/html;level=2|q=0.4|
         |6순위|text/plain|q=0.3|
-    
-</br></br></br>
+</br>
+<div style="text-align: right"> 
+
+[맨위로](#목차) 
+</div>   
+</br></br>
 
 ## 전송
 
@@ -135,8 +157,12 @@ HTTP 헤더는 다음과 같은 구조를 가지고 있다.
 <img src = "https://user-images.githubusercontent.com/84119178/188080930-b30a94d2-90ba-41b3-ad9d-93e27d060d67.png" width = "600"></br>
 - 자료를 받다가 중단된 경우 유용하게 사용가능
 - 범위를 지정해서 전송할 수 있다.
+</br>
+<div style="text-align: right"> 
 
-</br></br></br>
+[맨위로](#목차) 
+</div>
+</br></br>
 
 ## 일반 정보
 ### From
@@ -195,8 +221,12 @@ HTTP 헤더는 다음과 같은 구조를 가지고 있다.
 2. WWW-Authenticate
     - 리소스 접근시 필요한 인증 방법 정의
     - 401오류시 무조건 사용
+</br>
+<div style="text-align: right"> 
 
-</br></br></br>
+[맨위로](#목차) 
+</div>
+</br></br>
 
 ## 쿠키
 HTTP는 무상태 프로토콜</br>
@@ -218,6 +248,8 @@ HTTP는 무상태 프로토콜</br>
     - 서버에 전송하지 않고, 웹 브라우저 내부에 데이터를 저장하고 싶으면</br>
     웹스토리지를 사용하면 됨
     - 보안에 민감한 데이터는 저장하면 안된다!(주민번호 등등)
+---
+</br>
 
 - 예) **`set-cookie`** : **sessionId**=abcde1234; **expires**=Sat, 26-Dec-2020 00:00:00 GMT; **path**=/; **domain**=.google.com; **Secure**
     - ### 쿠키 - 생명주기(Expires, max-age)</br>
@@ -229,4 +261,38 @@ HTTP는 무상태 프로토콜</br>
         - **`영속 쿠키`** : 만료 날짜를 입력하면 해당 날짜까지 유지
         ---
     - ### 쿠키 - 도메인(Domain)
-        - **`domain=example.org`**
+        - **domain=example.org**
+        - **명시 : 명시한 문서 기준 도메인 + 서브 도메인 포함**
+            - domain=example.org를 지정해서 쿠키 생성
+                - example.org는 물론이고</br> 
+                하위 도메인(dev.example.org)도 쿠키접근 가능
+        - **생략 : 현재 문서 기준 도메인만 적용**
+            - example.org에서 쿠키를 생성</br>
+                (domain 지정을 생략)
+                - example.org에서만 쿠키 접근 가능
+                - 하위 도메인은 쿠키 미접근
+        ---
+    - ### 쿠키 - 경로(Path)
+        - **path=/home**
+        - 이 경로를 포함한 하위 경로 페이지만 쿠키 접근
+        - 일반적으로 path=/ 루트로 지정
+            - `/home`(가능)
+            - `/home/level1`(가능)
+            - `/hello`(불가능)
+        ---
+    - ### 쿠키 - 보안(Secure, HttpOnly, SameSite)
+        - **Secure**
+            - 쿠키는 http,https를 구분하지 않고 전송하지만</br>
+            Secure를 적용하면 https인 경우에만 전송
+        - **HttpOnly**
+            - 자바스크립트에서 접근 X
+            - HTTP 전송에서만 사용</br>
+            (아직 쓰는 곳이 많지 않다!!!)
+        - **SameSite**
+            - XSRF 공격 방지
+            - 요청 도메인과 쿠키에 설정된 도메인이 같은 경우만 쿠키 전송
+</br>
+<div style="text-align: right"> 
+
+[맨위로](#목차) 
+</div>
