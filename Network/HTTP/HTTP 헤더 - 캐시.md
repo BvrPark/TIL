@@ -5,7 +5,6 @@
 
 ---
 ## 캐시
-### **캐시가 없을 때**
 <img src="https://user-images.githubusercontent.com/84119178/188115765-d790f452-65af-43fc-865e-2fee50eacd03.png" width="600"></br>
 - 인터넷 네트워크는 매우 느리고 비싸지만 캐시가 없는 경우에는 </br>
 데이터가 변경되지 않아도 요청이 올 때마다 네트워크를 통해서 </br>
@@ -13,7 +12,6 @@
 
 </br></br>
 
-### **캐시 적용**
 <img src="https://user-images.githubusercontent.com/84119178/188117714-09fc4e62-662c-4d80-addc-daffedcc3154.png" width="600"></br>
 - 캐시를 적용하게 되면 캐시가 유효한 시간동안 HTTP 바디를 다운로드 할 필요없이</br>
 HTTP 헤더만 다운로드 받으면 됨
@@ -31,7 +29,6 @@ HTTP 헤더만 다운로드 받으면 됨
     -> **검증헤더**
 </br></br>
 
-### **검증 헤더 추가**
 <img src="https://user-images.githubusercontent.com/84119178/188120595-67948583-36a0-45c9-890a-f36992ff3f7b.png" width = "450">
 <img src="https://user-images.githubusercontent.com/84119178/188121208-2613965a-4216-43f5-adfd-218fff89ffb2.png" width = "450">
 
