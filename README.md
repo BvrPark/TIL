@@ -74,6 +74,8 @@
 ## Java
 - [Comparable vs Comparator](https://github.com/crupy/TIL/blob/master/Java/Comparable%20vs%20Comparator.md)
 - [Annotation](https://github.com/crupy/TIL/blob/master/Java/Annotation.md)
+- [Enum](https://github.com/crupy/TIL/blob/master/Java/Enum.md)
+- [가변인자](https://github.com/crupy/TIL/blob/master/Java/%EA%B0%80%EB%B3%80%EC%9D%B8%EC%9E%90.md)
 
 ## Spring
 - [IoC, DI, 컨테이너](https://github.com/crupy/TIL/blob/master/Spring/IoC%2C%20DI%2C%20%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88.md)
