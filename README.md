@@ -5,10 +5,10 @@
 - [기초지식](#기초지식)
 - [Network](#network)
 - [Database](#database)
-- [Algorithm](#algorithm)
 - [OOP](#oop)
 - [Java](#java)
 - [Spring](#spring)
+- [Algorithm](#algorithm)
 - [풀이코드](#풀이코드)
 </br></br>
 
@@ -37,8 +37,13 @@
 - [RESTful API](https://github.com/crupy/TIL/blob/master/Network/RESTful%20API.md)
 
 ## Database
-- **MySQL**
+- [트랜잭션](https://github.com/crupy/TIL/blob/master/Database/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98.md)
+- <details>
+       <summary>MySQL</summary>
+       <div markdown="1">
+       
     - [SELECT 기초](https://github.com/crupy/TIL/tree/master/MySQL_%EA%B8%B0%EC%B4%88%EB%AC%B8%EB%B2%95/SELECT%20%EA%B8%B0%EC%B4%88)
+
     - <details>
        <summary>SELECT 활용</summary>
        <div markdown="1">
@@ -49,8 +54,27 @@
 
        </div>
        </details>
+
+       </div>
+       </details>
+
+
     
-    
+## OOP
+- [객체 지향 언어의 4가지 특징](https://github.com/crupy/TIL/blob/master/OOP/%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%EC%96%B8%EC%96%B4%EC%9D%98%204%EA%B0%80%EC%A7%80%20%ED%8A%B9%EC%A7%95.md)
+- [좋은 객체 지향 설계의 5가지 원칙(SOLID)](https://github.com/crupy/TIL/blob/master/OOP/%EC%A2%8B%EC%9D%80%20%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%EC%84%A4%EA%B3%84%EC%9D%98%205%EA%B0%80%EC%A7%80%20%EC%9B%90%EC%B9%99(SOLID).md)
+
+## Java
+- [Comparable vs Comparator](https://github.com/crupy/TIL/blob/master/Java/Comparable%20vs%20Comparator.md)
+- [Annotation](https://github.com/crupy/TIL/blob/master/Java/Annotation.md)
+- [Enum](https://github.com/crupy/TIL/blob/master/Java/Enum.md)
+- [가변인자](https://github.com/crupy/TIL/blob/master/Java/%EA%B0%80%EB%B3%80%EC%9D%B8%EC%9E%90.md)
+
+## Spring
+- [IoC, DI, 컨테이너](https://github.com/crupy/TIL/blob/master/Spring/IoC%2C%20DI%2C%20%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88.md)
+- [Spring Container & Spring Bean](https://github.com/crupy/TIL/blob/master/Spring/Spring%20Container%20&%20Spring%20Bean.md)
+- [싱글톤과 싱글톤 컨테이너](https://github.com/crupy/TIL/blob/master/Spring/%EC%8B%B1%EA%B8%80%ED%86%A4%20%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88.md)
+- [컴포넌트 스캔](https://github.com/crupy/TIL/blob/master/Spring/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EC%8A%A4%EC%BA%94.md)
 
 ## Algorithm
 - **이론**
@@ -67,21 +91,6 @@
     - [얕은 복사 vs 깊은 복사](https://github.com/crupy/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%8B%A4%EC%A0%84%20%EA%B0%9C%EB%85%90/%EC%96%95%EC%9D%80%20%EB%B3%B5%EC%82%AC%20vs%20%EA%B9%8A%EC%9D%80%20%EB%B3%B5%EC%82%AC.md)
     - [정규식](https://github.com/crupy/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%8B%A4%EC%A0%84%20%EA%B0%9C%EB%85%90/%EC%A0%95%EA%B7%9C%EC%8B%9D.md)
 
-## OOP
-- [객체 지향 언어의 4가지 특징](https://github.com/crupy/TIL/blob/master/OOP/%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%EC%96%B8%EC%96%B4%EC%9D%98%204%EA%B0%80%EC%A7%80%20%ED%8A%B9%EC%A7%95.md)
-- [좋은 객체 지향 설계의 5가지 원칙(SOLID)](https://github.com/crupy/TIL/blob/master/OOP/%EC%A2%8B%EC%9D%80%20%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%EC%84%A4%EA%B3%84%EC%9D%98%205%EA%B0%80%EC%A7%80%20%EC%9B%90%EC%B9%99(SOLID).md)
-
-## Java
-- [Comparable vs Comparator](https://github.com/crupy/TIL/blob/master/Java/Comparable%20vs%20Comparator.md)
-- [Annotation](https://github.com/crupy/TIL/blob/master/Java/Annotation.md)
-- [Enum](https://github.com/crupy/TIL/blob/master/Java/Enum.md)
-- [가변인자](https://github.com/crupy/TIL/blob/master/Java/%EA%B0%80%EB%B3%80%EC%9D%B8%EC%9E%90.md)
-
-## Spring
-- [IoC, DI, 컨테이너](https://github.com/crupy/TIL/blob/master/Spring/IoC%2C%20DI%2C%20%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88.md)
-- [Spring Container & Spring Bean](https://github.com/crupy/TIL/blob/master/Spring/Spring%20Container%20&%20Spring%20Bean.md)
-- [싱글톤과 싱글톤 컨테이너](https://github.com/crupy/TIL/blob/master/Spring/%EC%8B%B1%EA%B8%80%ED%86%A4%20%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88.md)
-- [컴포넌트 스캔](https://github.com/crupy/TIL/blob/master/Spring/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EC%8A%A4%EC%BA%94.md)
 
 ## 풀이코드
 😀어려운 문제에 대한 자세한 풀이는 [블로그](https://crupy.tistory.com/category)참조😀</br>
