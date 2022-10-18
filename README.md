@@ -39,6 +39,7 @@
 ## Database
 - [트랜잭션](https://github.com/crupy/TIL/blob/master/Database/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98.md)
 - [BLOB, CLOB](https://github.com/crupy/TIL/blob/master/Database/LOB(BLOB%2C%20CLOB).md)
+- [DDL, DML, DCL](https://github.com/crupy/TIL/blob/master/Database/DDL%2C%20DML%2C%20DCL.md)
 - <details>
        <summary>MySQL</summary>
        <div markdown="1">
