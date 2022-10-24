@@ -40,6 +40,7 @@
 - [트랜잭션](https://github.com/crupy/TIL/blob/master/Database/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98.md)
 - [BLOB, CLOB](https://github.com/crupy/TIL/blob/master/Database/LOB(BLOB%2C%20CLOB).md)
 - [DDL, DML, DCL](https://github.com/crupy/TIL/blob/master/Database/DDL%2C%20DML%2C%20DCL.md)
+- [관계형 데이터 베이스(RDBMS)](https://github.com/crupy/TIL/blob/master/Database/%EA%B4%80%EA%B3%84%ED%98%95%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B2%A0%EC%9D%B4%EC%8A%A4(RDBMS).md)
 - <details>
        <summary>MySQL</summary>
        <div markdown="1">
