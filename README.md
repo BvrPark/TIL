@@ -38,6 +38,8 @@
 - [RESTful API](https://github.com/crupy/TIL/blob/master/Network/RESTful%20API.md)
 
 ## Database
+- [Entity](https://github.com/crupy/TIL/blob/master/Database/Entity.md)
+- [ORM(Object Relational Mapping)](https://github.com/crupy/TIL/blob/master/Database/ORM.md)
 - [트랜잭션](https://github.com/crupy/TIL/blob/master/Database/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98.md)
 - [BLOB, CLOB](https://github.com/crupy/TIL/blob/master/Database/LOB(BLOB%2C%20CLOB).md)
 - [DDL, DML, DCL](https://github.com/crupy/TIL/blob/master/Database/DDL%2C%20DML%2C%20DCL.md)
