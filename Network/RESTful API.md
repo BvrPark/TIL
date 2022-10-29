@@ -6,9 +6,9 @@ API라는 개념은 [API란?](https://github.com/crupy/TIL/blob/master/%EA%B8%B0
 
 ## RESTful API란?
 **REST**란 **RE**presentational **S**tate **T**ransfer의 약어로 웹을 이용할 때 제약 조건들을 정의하는 소프트웨어 아키텍처 스타일이다.</br>
-즉, **HTTP를 잘 활용하기 위한 원칙**이라고 말할 수 있으며,</br>
-`HTTP URL`을 통해 자원(Resource)을 명시하고 `*HTTP Method`를 통해서 해당 자원(URL)에 대한 **CRUD**(**C**reate, **R**ead, **U**pdate, **D**elete)를 적용하는 것을 의미한다.
-</br></br>
+즉, **HTTP를 잘 활용하기 위한 원칙**이라고 말할 수 있다.
+#### 🔑 HTTP URL을 통해 자원(Resource)을 명시하고 해당 자원(URL)에 대한 행위[**CRUD**(**C**reate, **R**ead, **U**pdate, **D**elete)]를 </br>`*HTTP Method`로 표현해야 한다.
+</br>
 
 **HTTP Method**
 - GET : 지정된 URL에서 리소스의 표현을 조회
@@ -78,7 +78,7 @@ REST는 다음과 같은 3가지로 구성되어 있다.
 
 **`❌POST`** `https://github.com/crupy/post/8`
 
-**`⭕DELETE`** `https://github.com/crupy/8`
+**`⭕POST`** `https://github.com/crupy/8`
 
 - 자원에 대한 행위는 HTTP Method로 표현(GET, POST, DELETE, PUT)
 </br></br>
