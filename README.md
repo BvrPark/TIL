@@ -76,11 +76,12 @@
 - [Enum](https://github.com/crupy/TIL/blob/master/Java/Enum.md)
 - [가변인자](https://github.com/crupy/TIL/blob/master/Java/%EA%B0%80%EB%B3%80%EC%9D%B8%EC%9E%90.md)
 
-## Spring
+## Spring & JPA
 - [IoC, DI, 컨테이너](https://github.com/crupy/TIL/blob/master/Spring/IoC%2C%20DI%2C%20%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88.md)
 - [Spring Container & Spring Bean](https://github.com/crupy/TIL/blob/master/Spring/Spring%20Container%20&%20Spring%20Bean.md)
 - [싱글톤과 싱글톤 컨테이너](https://github.com/crupy/TIL/blob/master/Spring/%EC%8B%B1%EA%B8%80%ED%86%A4%20%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88.md)
 - [컴포넌트 스캔](https://github.com/crupy/TIL/blob/master/Spring/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EC%8A%A4%EC%BA%94.md)
+- [임베디드 타입](https://github.com/crupy/TIL/blob/master/JPA/%EC%9E%84%EB%B2%A0%EB%94%94%EB%93%9C%20%ED%83%80%EC%9E%85.md)
 
 ## Algorithm
 - **이론**
