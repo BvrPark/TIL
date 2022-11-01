@@ -7,7 +7,16 @@ JPQL에 익숙해 지기 전까진 정리를 해두고 쓸 때 참고를 하는 
 - JPQL은 **객체지향 쿼리언어**이므로 테이블 대신 **엔티티 객체를 대상으로 쿼리**한다.
 - JPQL은 SQL을 추상화하기 때문에, 특정 DB SQL에 의존하지 않는다.</br> -> **결국 SQL로 변환**
 
-## JPQL 문법
+## JPQL 문법 목차
+- [JPQL 기본 문법](#jpql-기본-문법)
+- [집합과 정렬](#집합과-정렬)
+- [TypedQuery, Query](#typedquery-query)
+- [결과 조회 API](#결과-조회-api)
+- [파라미터 바인딩](#파라미터-바인딩)
+
+</br></br>
+
+## JPQL 기본 문법
 - 일반적인 select, from, where, groupby 등등 SQL과 문법은 거의 비슷하다.
 - ### 예시)
     ```sql
@@ -38,7 +47,7 @@ JPQL에 익숙해 지기 전까진 정리를 해두고 쓸 때 참고를 하는 
     --> m.username은 반환 타입이 String이므로 TypedQuery 사용
 
     Query query2 
-    = em.createQuery("select m.username, m.age from Member m", Member.class);
+    = em.createQuery("select m.username, m.age from Member m", jpql.Member.class);
     --> m.username, m.age로 반환 타입이 String, int이므로 반환타입이 명확하지 않으므로 Query 사용
     ```
 - ### 결과 조회 API
@@ -51,12 +60,12 @@ JPQL에 익숙해 지기 전까진 정리를 해두고 쓸 때 참고를 하는 
         -> 결과가 정확히 하나가 아니면 무조건 Exception 반환!
 
 - ### 파라미터 바인딩
-    - 이름 기준과 위치 기준이 있으나 위치 기준은 데이터의 변화에 따라 오류가 생길 수 있으므로 이름 기준만 다룬다!!!
+    - 이름 기준과 위치 기준이 있으나 위치 기준은 데이터의 변화에 따라 오류가 생길 수 있으므로 이름 기준만 다룬다.
     - **이름 기준 파라미터 바인딩**
         ```sql
         Member result 
-        = em.createQuery("select m from Member m where m.username = :user", Member.class)
-                    .setParameter("user", "member1")    --> :뒤의 ?("user")가 m.username = member1인 것을 찾을꺼다.
+        = em.createQuery("select m from Member m where m.username = :username", Member.class)
+                    .setParameter("username", "member1")    //:뒤의 ?("username")이 member1인 것을 찾을꺼다.
                     .getSingleResult();
         --> 결과를 정확히 하나 반환한다.
         ```
