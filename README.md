@@ -84,8 +84,8 @@
 - [컴포넌트 스캔](https://github.com/crupy/TIL/blob/master/Spring/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EC%8A%A4%EC%BA%94.md)
 
 ## JPA
-- [JPQL 문법](https://github.com/crupy/TIL/blob/master/JPA/JPQL.md)
 - [임베디드 타입](https://github.com/crupy/TIL/blob/master/JPA/%EC%9E%84%EB%B2%A0%EB%94%94%EB%93%9C%20%ED%83%80%EC%9E%85.md)
+- [JPQL 문법](https://github.com/crupy/TIL/blob/master/JPA/JPQL.md)
 
 ## Algorithm
 - **이론**
