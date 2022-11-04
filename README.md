@@ -17,6 +17,7 @@
 - [API란?](https://github.com/crupy/TIL/blob/master/%EA%B8%B0%EC%B4%88%EC%A7%80%EC%8B%9D/API%EB%9E%80%3F.md)
 - [MVC패턴](https://github.com/crupy/TIL/blob/master/%EA%B8%B0%EC%B4%88%EC%A7%80%EC%8B%9D/MVC%ED%8C%A8%ED%84%B4.md)
 - [DAO, DTO, VO](https://github.com/crupy/TIL/blob/master/%EA%B8%B0%EC%B4%88%EC%A7%80%EC%8B%9D/DAO%2C%20DTO%2C%20VO.md)
+- [CI, CD](https://github.com/crupy/TIL/blob/master/%EA%B8%B0%EC%B4%88%EC%A7%80%EC%8B%9D/CI%2C%20CD.md)
 
 ## Network
 - [네트워크](https://github.com/crupy/TIL/blob/master/Network/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC.md)
