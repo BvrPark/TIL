@@ -18,6 +18,44 @@
 - [MVC패턴](https://github.com/crupy/TIL/blob/master/%EA%B8%B0%EC%B4%88%EC%A7%80%EC%8B%9D/MVC%ED%8C%A8%ED%84%B4.md)
 - [DAO, DTO, VO](https://github.com/crupy/TIL/blob/master/%EA%B8%B0%EC%B4%88%EC%A7%80%EC%8B%9D/DAO%2C%20DTO%2C%20VO.md)
 - [CI, CD](https://github.com/crupy/TIL/blob/master/%EA%B8%B0%EC%B4%88%EC%A7%80%EC%8B%9D/CI%2C%20CD.md)
+- <details>
+    <summary>운영체제(OS)</summary>
+    <div markdown="1">
+
+    <details>
+    <summary>운영체제의 정의 및 기본</summary>
+    <div markdown="1">
+
+    - [운영체제(OS)의 정의와 목적](https://github.com/crupy/TIL/blob/master/%EA%B8%B0%EC%B4%88%EC%A7%80%EC%8B%9D/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C(OS)/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%EC%9D%98%20%EC%A0%95%EC%9D%98%EC%99%80%20%EB%AA%A9%EC%A0%81.md)
+
+    </div>
+    </details>
+    
+    <details>
+    <summary>시스템 구조(System Structures)</summary>
+    <div markdown="1">
+
+    </div>
+    </details>
+
+    <details>
+    <summary>프로세스(Process)</summary>
+    <div markdown="1">
+
+    </div>
+    </details>
+
+    <details>
+    <summary>멀티 쓰레드(MultiThread)</summary>
+    <div markdown="1">
+
+    </div>
+    </details>
+
+    
+
+    </div>
+</details>
 
 ## Network
 - [네트워크](https://github.com/crupy/TIL/blob/master/Network/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC.md)
