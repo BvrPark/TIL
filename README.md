@@ -161,6 +161,17 @@
 
     </div>
     </details>
+    
+    <details>
+    <summary>클래스별 풀이코드(solved.ac)</summary>
+    <div markdown="1">
+    
+    - [Class_1](https://github.com/crupy/AlgorithmCode/tree/master/src/solved/class_1)</br>
+    - [Class_2](https://github.com/crupy/AlgorithmCode/tree/master/src/solved/class_2)</br>
+    
+    </div>
+    </details>
+    </br>
 
 
 - **프로그래머스**
