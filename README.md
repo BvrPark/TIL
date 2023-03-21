@@ -112,6 +112,7 @@
 - [좋은 객체 지향 설계의 5가지 원칙(SOLID)](https://github.com/crupy/TIL/blob/master/OOP/%EC%A2%8B%EC%9D%80%20%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%EC%84%A4%EA%B3%84%EC%9D%98%205%EA%B0%80%EC%A7%80%20%EC%9B%90%EC%B9%99(SOLID).md)
 
 ## Java
+- [자바의 특징](https://github.com/crupy/TIL/blob/master/Java/%EC%9E%90%EB%B0%94%EC%9D%98%20%ED%8A%B9%EC%A7%95.md)
 - [Comparable vs Comparator](https://github.com/crupy/TIL/blob/master/Java/Comparable%20vs%20Comparator.md)
 - [Annotation](https://github.com/crupy/TIL/blob/master/Java/Annotation.md)
 - [Enum](https://github.com/crupy/TIL/blob/master/Java/Enum.md)
