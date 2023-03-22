@@ -19,6 +19,7 @@
 - [DAO, DTO, VO](https://github.com/crupy/TIL/blob/master/%EA%B8%B0%EC%B4%88%EC%A7%80%EC%8B%9D/DAO%2C%20DTO%2C%20VO.md)
 - [CI, CD](https://github.com/crupy/TIL/blob/master/%EA%B8%B0%EC%B4%88%EC%A7%80%EC%8B%9D/CI%2C%20CD.md)
 - [UML](https://github.com/crupy/TIL/blob/master/%EA%B8%B0%EC%B4%88%EC%A7%80%EC%8B%9D/UML.md)
+- [멀티 프로세싱 vs 멀티 프로그래밍 vs 멀티 태스킹 vs 멀티 스레딩](https://github.com/crupy/TIL/blob/master/%EA%B8%B0%EC%B4%88%EC%A7%80%EC%8B%9D/%EB%A9%80%ED%8B%B0%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D.md)
 - <details>
     <summary>운영체제(OS)</summary>
     <div markdown="1">
