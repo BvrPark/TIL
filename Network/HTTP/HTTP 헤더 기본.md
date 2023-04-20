@@ -234,6 +234,20 @@ HTTP는 무상태 프로토콜</br>
 -> 그래서 정보를 계속 기억하지 못한다</br>
 -> 그래서 쿠키가 필요하다
 
+### 쿠키 동작 원리
+
+> - 클라이언트가 서버에 HTTP 요청
+> - 서버가 HTTP 응답시 set-cookie를 통해 쿠키 생성하여 전달
+> - 클라이언트는 이제부터 매 HTTP Request시 HTTP Header에 쿠키담아서 전송
+> - 만료 기간 전이라면, 쿠키는 브라우저에 저장되어 있으며, 항상 요청시 사용 가능
+> - 만료됬다면, 클라이언트가 새로 서버에 요청하여 쿠키 새로 발급
+
+</br>
+
+<img src = "https://user-images.githubusercontent.com/84119178/233255864-4882480b-b88b-49e9-be3b-0b51da766afb.jpeg" width = "750px">
+
+---
+
 <img src="https://user-images.githubusercontent.com/84119178/188088593-112f134c-1c03-4876-9d4f-7ca4991275f3.png" width = "600">
 
 **Set-Cookie** : 서버에서 클라이언트로 쿠키 전달(응답)</br>
@@ -250,6 +264,7 @@ HTTP는 무상태 프로토콜</br>
     - 보안에 민감한 데이터는 저장하면 안된다!(주민번호 등등)
 ---
 </br>
+
 
 - 예) **`set-cookie`** : **sessionId**=abcde1234; **expires**=Sat, 26-Dec-2020 00:00:00 GMT; **path**=/; **domain**=.google.com; **Secure**
     - ### 쿠키 - 생명주기(Expires, max-age)</br>
