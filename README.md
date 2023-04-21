@@ -18,8 +18,7 @@
 - [MVC패턴](https://github.com/crupy/TIL/blob/master/%EA%B8%B0%EC%B4%88%EC%A7%80%EC%8B%9D/MVC%ED%8C%A8%ED%84%B4.md)
 - [DAO, DTO, VO](https://github.com/crupy/TIL/blob/master/%EA%B8%B0%EC%B4%88%EC%A7%80%EC%8B%9D/DAO%2C%20DTO%2C%20VO.md)
 - [CI, CD](https://github.com/crupy/TIL/blob/master/%EA%B8%B0%EC%B4%88%EC%A7%80%EC%8B%9D/CI%2C%20CD.md)
-- [UML](https://github.com/crupy/TIL/blob/master/%EA%B8%B0%EC%B4%88%EC%A7%80%EC%8B%9D/UML.md)
-- [멀티 프로세싱 vs 멀티 프로그래밍 vs 멀티 태스킹 vs 멀티 스레딩](https://github.com/crupy/TIL/blob/master/%EA%B8%B0%EC%B4%88%EC%A7%80%EC%8B%9D/%EB%A9%80%ED%8B%B0%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D.md)
+- [WebStorage](https://github.com/crupy/TIL/blob/master/%EA%B8%B0%EC%B4%88%EC%A7%80%EC%8B%9D/%EC%9B%B9%20%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80.md)
 - <details>
     <summary>운영체제(OS)</summary>
     <div markdown="1">
@@ -113,7 +112,6 @@
 - [좋은 객체 지향 설계의 5가지 원칙(SOLID)](https://github.com/crupy/TIL/blob/master/OOP/%EC%A2%8B%EC%9D%80%20%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%EC%84%A4%EA%B3%84%EC%9D%98%205%EA%B0%80%EC%A7%80%20%EC%9B%90%EC%B9%99(SOLID).md)
 
 ## Java
-- [자바의 특징](https://github.com/crupy/TIL/blob/master/Java/%EC%9E%90%EB%B0%94%EC%9D%98%20%ED%8A%B9%EC%A7%95.md)
 - [Comparable vs Comparator](https://github.com/crupy/TIL/blob/master/Java/Comparable%20vs%20Comparator.md)
 - [Annotation](https://github.com/crupy/TIL/blob/master/Java/Annotation.md)
 - [Enum](https://github.com/crupy/TIL/blob/master/Java/Enum.md)
@@ -147,7 +145,6 @@
 
 ## 풀이코드
 😀어려운 문제에 대한 자세한 풀이는 [블로그](https://crupy.tistory.com/category)참조😀</br>
-- [**전체 풀이코드**](https://github.com/crupy/AlgorithmCode)
 
 - **백준**
     <details>
